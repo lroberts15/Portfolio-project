@@ -20,11 +20,23 @@ img {
   max-width: 100%;
 }
 
+h3{
+  margin: 0 0 1em 0;
+}
+
 
 
 /**********************************
 HEADING
 ***********************************/
+
+header{
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+
+}
 
 #logo {
   text-align: center;
@@ -57,6 +69,21 @@ nav {
   margin: 20px 0 0;
 }
 
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+font-weight: 800:
+padding: 15px 10px;
+}
+
 
 
 /**********************************
@@ -69,6 +96,12 @@ footer {
   clear: both;c
   padding-top: 50px;
   color: #ccc;
+}
+
+.social-icom {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
 }
 
 
@@ -90,6 +123,18 @@ PAGE: PORTFOLIO
   background-color: #f5f5f5;
   color: #bdc3c7;
 }
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
 
 #gallery li a p {
   margin: 0;
